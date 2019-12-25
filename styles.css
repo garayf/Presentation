@@ -1,37 +1,43 @@
-
-
-
 body {
     background-color:black;
     background-image:url("Binarycode2.jpg");
 }
 
 #header_t {
-    max-width: 700px;
-    background: red;
+    max-width: 800px;
+    /*background: red;*/
     color: white;
     margin: 0 auto;    
     text-align:center;
 }
 
+#footer {
+    text-align: center;
+    color: white;
+    /*background: grey;*/
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+  }
+
 .one {
-    max-width: 700px;
-    background: #02b1fc;
+    max-width: 800px;
+    /*background: #02b1fc;*/
     color: white;    
     margin: 0 auto;
 }
 
 .two {
-    max-width: 700px;
-    background: #02b1fc;
+    max-width: 800px;
+    /*background: #02b1fc;*/
     color: white;
     margin: 0 auto;
     text-align:center;    
 }
 
 .c_data {
-    max-width: 700px;
-    background: #02b1fc;
+    max-width: 800px;
+    /*background: #02b1fc;*/
     color: white;    
     margin: 0 auto;
     text-align: center;
@@ -40,8 +46,8 @@ body {
 
 .flex-container {    
     display: flex;
-    max-width: 700px;
-    background: #02b1fc;
+    max-width: 800px;
+    /*background: #02b1fc;*/
     color: white;    
     margin: 0 auto;
     
@@ -49,13 +55,13 @@ body {
 }
 
 .left{      
-    background: purple;
+    /*background: purple;*/
     margin: 1%;
     min-width: 48%;
 }
 
 .rigth{
-    background:green;
+    /*background:green;*/
     margin: 1%;
     min-width: 48%;
 }
